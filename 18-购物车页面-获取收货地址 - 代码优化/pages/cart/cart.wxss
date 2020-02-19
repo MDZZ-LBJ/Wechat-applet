@@ -1,0 +1,7 @@
+/* 收货地址 */
+ .revice_address_row .address_bnt{
+  padding: 20rpx;
+}
+.address_bnt button{
+  width: 60%
+}

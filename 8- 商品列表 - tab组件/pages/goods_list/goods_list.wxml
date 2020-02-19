@@ -1,0 +1,13 @@
+
+<!--  搜索框组件  -->
+ <SearchInput></SearchInput>
+
+ <!--  tab组件 -->
+ <tabs tabs="{{tabs}}"  bind:tabsItemChange="__handletabsItemChange" >
+  
+   <block wx:if="{{tabs[0].isActive}}">0</block>
+   <block wx:elif="{{tabs[1].isActive}}">1</block>
+   <block wx:else >2</block>
+ 
+ </tabs>
+   

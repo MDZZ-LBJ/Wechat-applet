@@ -1,0 +1,9 @@
+ <!--  tab组件 -->
+ <tabs tabs="{{tabs}}"  bind:tabsItemChange="__handletabsItemChange" >
+
+   <block wx:if="{{tabs[0].isActive}}">全部订单</block>
+   <block wx:elif="{{tabs[1].isActive}}">待付款</block>
+   <block wx:elif="{{tabs[2].isActive}}">待收货</block>
+   <block wx:else >退款\退货</block>
+ 
+  </tabs>

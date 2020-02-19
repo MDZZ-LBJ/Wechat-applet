@@ -1,0 +1,5 @@
+<!--  open-type="getUserInfo" 用来获取用户信息 -->
+
+<button type="primary" plain open-type="getUserInfo" bindgetuserinfo="__handleGetUserInfo">
+  获取授权
+</button>

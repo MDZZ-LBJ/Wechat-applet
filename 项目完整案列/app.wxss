@@ -1,0 +1,22 @@
+
+/* 引入字体图标库  */
+ @import "/styles/iconfont.wxss";
+
+ /* 去除默认样式 ，小程序中不支持 * 通配符 */
+ page,view,text,swiper,swiper-item,image,navigator{
+    padding:0;
+    margin:0;
+    box-sizing: border-box
+ }
+
+ /*  主题颜色 原生css和wxss 也是支持 变量   */
+page{
+  /* 定义主题颜色 */
+  --themeColor:#d81e06;
+  /* 定义同一字体大小 假设设计稿是 375px 即 1rpx=2px  */
+  font-size: 28rpx;
+}
+
+image{
+  width: 100%
+}

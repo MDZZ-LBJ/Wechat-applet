@@ -1,0 +1,26 @@
+ <!--  tab组件 -->
+ <tabs tabs="{{tabs}}"  bind:tabsItemChange="__handletabsItemChange" >
+   
+   <view class="order_main">
+       <view wx:for="{{orders}}" wx:key="*this" class="order_item">
+            <view class="order_no_row">
+               <view class="order_no_text">订单编号</view>
+               <view class="order_no_value">1111111111111</view>
+            </view>
+             <view class="order_name_row">
+               <view class="order_name_text">商品名称</view>
+               <view class="order_name_value">{{item.goods_name}}</view>
+            </view>
+            <view class="order_price_row">
+               <view class="order_price_text">订单价格</view>
+               <view class="order_price_value">{{item.goods_price}}</view>
+            </view>
+             <view class="order_time_row">
+               <view class="order_time_text">创建时间</view>
+               <view class="order_time_value">{{item.time}}</view>
+            </view>
+       </view>
+   </view>
+   
+ 
+  </tabs>
